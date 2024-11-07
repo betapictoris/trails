@@ -79,55 +79,73 @@ main {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+
   background-color: var(--a4);
   color: #fff;
 
   padding: 24px;
-  gap: 32px;
 
-  display: flex;
-  justify-content: space-between;
+  > p {
+    margin: 0;
+    padding: 0;
 
-  > .siteinfo {
-    display: flex;
+    text-align: center;
 
     > a {
-      > img {
-        height: 24px;
-      }
-
-      display: flex;
-      justify-content: center;
       color: #fff;
-      font-weight: bold;
-      text-decoration: none;
-      gap: 8px;
-
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 
-  > .navables {
+  > div {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    gap: 12px;
 
-    gap: 18px;
+    margin-bottom: 16px;
 
-    > nav {
+    > .siteinfo {
       display: flex;
-      flex-direction: column;
 
       > a {
+        > img {
+          height: 24px;
+        }
+
+        display: flex;
+        justify-content: center;
         color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        gap: 8px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    > .navables {
+      display: flex;
+      flex-direction: row;
+
+      gap: 18px;
+
+      > nav {
+        display: flex;
+        flex-direction: column;
+
+        > a {
+          color: #fff;
+        }
       }
     }
   }
 }
 
 @media only screen and (max-width: 512px) {
-  footer {
+  footer > div {
     flex-direction: column;
 
     > .navables {

@@ -32,26 +32,32 @@
     <main>{% block content %} {% endblock %}</main>
 
     <footer>
-      <div class="siteinfo">
-        <a href="/">
-          <img src="/assets/icons/mask-white.svg" />
-          {{ config.title }}
-        </a>
-      </div>
+      <div>
+        <div class="siteinfo">
+          <a href="/">
+            <img src="/assets/icons/mask-white.svg" />
+            {{ config.title }}
+          </a>
+        </div>
 
-      <div class="navables">
-        <nav>
-          <b>Everything</b>
-          <a href="https://www.hai.haus">Haihaus</a>
-          <a href="/sitemap.xml">Sitemap</a>
-        </nav>
+        <div class="navables">
+          <nav>
+            <b>Everything</b>
+            <a href="https://www.hai.haus">Haihaus</a>
+            <a href="/sitemap.xml">Sitemap</a>
+          </nav>
 
-        <nav>
-          <b>Legal</b>
-          <a href="/legal/privacy">Privacy Policy</a>
-          <a href="/legal/terms">Terms of Service</a>
-        </nav>
+          <nav>
+            <b>Legal</b>
+            <a href="/legal/privacy">Privacy Policy</a>
+            <a href="/legal/terms">Terms of Service</a>
+          </nav>
+        </div>
       </div>
+      <p>
+        &copy; {{now() | date(format="%Y")}}
+        <a href="https://www.hai.haus">{{config.author}}</a>
+      </p>
     </footer>
   </body>
 </html>
