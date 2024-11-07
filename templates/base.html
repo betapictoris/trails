@@ -21,7 +21,13 @@
     {% block head %} {% endblock head %}
   </head>
   <body>
-    <header></header>
+    <header>
+      <a href="/"> {{ config.title }} </a>
+
+      <nav>
+        <a href="/">Home</a>
+      </nav>
+    </header>
 
     <main>{% block content %} {% endblock %}</main>
 
@@ -29,7 +35,7 @@
       <div class="siteinfo">
         <a href="/">
           <img src="/assets/icons/mask-white.svg" />
-          Haihaus Trails
+          {{ config.title }}
         </a>
       </div>
 
