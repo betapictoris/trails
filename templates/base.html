@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="generator" content="zola" />
+    <meta name="publisher" content="{{config.title}}" />
+
+    <link rel="stylesheet" href="/assets/styles/base.css" />
+
+    <!-- SEO -->
+    <title>
+      {% if page.title %}{{page.title}} &dot; {% endif %} {% if section.title
+      %}{{section.title}} &dot; {% endif %} {{config.title}}
+    </title>
+    <meta name="keywords" content="computers,programming,self-hosting" />
+
+    <!-- Per-Page -->
+    {% block head %} {% endblock head %}
+  </head>
+  <body>
+    <header></header>
+
+    <main>{% block content %} {% endblock %}</main>
+
+    <footer>
+      <div class="siteinfo">
+        <a href="/">
+          <img src="/assets/icons/mask-white.svg" />
+          Haihaus Trails
+        </a>
+      </div>
+
+      <div class="navables">
+        <nav>
+          <b>Everything</b>
+          <a href="https://www.hai.haus">Haihaus</a>
+          <a href="/sitemap.xml">Sitemap</a>
+        </nav>
+
+        <nav>
+          <b>Legal</b>
+          <a href="/legal/privacy">Privacy Policy</a>
+          <a href="/legal/terms">Terms of Service</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

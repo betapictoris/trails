@@ -1,4 +1,5 @@
 base_url = "https://trails.hai.haus"
+title = "Haihaus Trails"
 
 compile_sass = true
 build_search_index = true
