@@ -1,6 +1,8 @@
 ---
 title: Bells Mountain Trail
 
+year: 2024
+
 extra:
   source:
     name: Clark County Open Data
