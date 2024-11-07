@@ -2,6 +2,10 @@
 title: Tarbell Trail
 
 extra:
+  distance:
+    amount: 44.23635934
+    unit: "miles"
+
   source:
     name: Clark County Open Data
     url: https://hub-clarkcountywa.opendata.arcgis.com/datasets/ClarkCountyWa::trail/about

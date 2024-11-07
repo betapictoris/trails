@@ -36,31 +36,41 @@
 
 <div class="content">
   <section class="route">
-    <h2>Map</h2>
-    <div class="interactiveMap">
-      <noscript>The interactive map requires JavaScript.</noscript>
+    <div>
+      <p>
+        {% if page.extra.distance %}
+        <b>Distance:</b> &approx;{{page.extra.distance.amount |
+        round(precision=1)}} {{ page.extra.distance.unit }} {% endif %}
+      </p>
+    </div>
 
-      <div class="map" id="map"></div>
+    <div>
+      <h2>Map</h2>
+      <div class="interactiveMap">
+        <noscript>The interactive map requires JavaScript.</noscript>
 
-      <script>
-        var map = L.map("map");
+        <div class="map" id="map"></div>
 
-        L.tileLayer(
-          "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
-          {
-            maxZoom: 20,
-            attribution:
-              'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>',
-          }
-        ).addTo(map);
+        <script>
+          var map = L.map("map");
 
-        fetch("index.geojson")
-          .then((response) => response.json())
-          .then((data) => {
-            var geojson = L.geoJSON(data).addTo(map);
-            map.fitBounds(geojson.getBounds());
-          });
-      </script>
+          L.tileLayer(
+            "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
+            {
+              maxZoom: 20,
+              attribution:
+                'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>',
+            }
+          ).addTo(map);
+
+          fetch("index.geojson")
+            .then((response) => response.json())
+            .then((data) => {
+              var geojson = L.geoJSON(data).addTo(map);
+              map.fitBounds(geojson.getBounds());
+            });
+        </script>
+      </div>
     </div>
 
     <div class="downloads">

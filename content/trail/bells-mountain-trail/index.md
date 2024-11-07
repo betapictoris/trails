@@ -1,9 +1,14 @@
 ---
 title: Bells Mountain Trail
 
-year: 2024
+date: 2024-11-06
+updated: 2024-11-07
 
 extra:
+  distance:
+    amount: 7.25588208
+    unit: "miles"
+
   source:
     name: Clark County Open Data
     url: https://hub-clarkcountywa.opendata.arcgis.com/datasets/ClarkCountyWa::trail/about
