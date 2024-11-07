@@ -1,0 +1,41 @@
+ul,
+ol,
+p {
+  margin: 6px 0px 12px;
+  line-height: 1.6;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+h1 {
+  // Main has a built-in margin, and this should be used at the top of the page.
+  margin: 0px 0px 12px;
+}
+
+h2 {
+  margin: 24px 0px 8px;
+}
+
+h3 {
+  margin: 18px 0px 6px;
+}
+
+h4 {
+  margin: 14px 0px 3px;
+}
+
+h5 {
+  margin: 10px 0px 2px;
+}
+
+h6 {
+  margin: 8px 0px 1.6px;
+}
