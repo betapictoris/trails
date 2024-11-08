@@ -25,6 +25,15 @@
     {{ page.title }} {% if page.extra.category %} ({{page.extra.category}}) {%
     endif %}
   </h1>
+
+  <div>
+    <p>
+      {% if page.extra.distance %}
+      <b>Distance:</b> &approx;{{page.extra.distance.amount |
+      round(precision=1)}} {{ page.extra.distance.unit }} {% endif %}
+    </p>
+  </div>
+
   {% if page.extra.aliases %}
   <p>
     <b>Aliases: </b>
@@ -36,14 +45,6 @@
 
 <div class="content">
   <section class="route">
-    <div>
-      <p>
-        {% if page.extra.distance %}
-        <b>Distance:</b> &approx;{{page.extra.distance.amount |
-        round(precision=1)}} {{ page.extra.distance.unit }} {% endif %}
-      </p>
-    </div>
-
     <div>
       <h2>Map</h2>
       <div class="interactiveMap">
@@ -59,7 +60,7 @@
             {
               maxZoom: 16,
               attribution:
-                '<a href="https://usgs.gov/">U.S. Geological Survey</a>',
+                '<a href="https://usgs.gov/" target="_blank" rel="noreferrer">U.S. Geological Survey</a> | <a href="{{ page.extra.source.url }}" target="_blank" rel="noreferrer">{{ page.extra.source.name }}</a>',
             }
           ).addTo(map);
 
