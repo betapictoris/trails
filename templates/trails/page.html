@@ -29,8 +29,13 @@
   <div>
     <p>
       {% if page.extra.distance %}
-      <b>Distance:</b> &approx;{{page.extra.distance.amount |
-      round(precision=1)}} {{ page.extra.distance.unit }} {% endif %}
+      <b>Distance:</b> {{page.extra.distance.amount | round(precision=1)}} {{
+      page.extra.distance.unit }} {% endif %}
+
+      <!-- Accent -->
+      {% if page.extra.accent %}
+      <b>Accent:</b> {{page.extra.accent.amount | round(precision=0)}} {{
+      page.extra.accent.unit }} {% endif %}
     </p>
   </div>
 
