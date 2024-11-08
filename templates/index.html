@@ -4,9 +4,18 @@
 {% block content %}
 
 <section>
-  <h2>Recently Added</h2>
+  {% set trails = get_section(path="trail/_index.md") %}
 
-  <!-- There should be content here -->
+  <h2>Recent Trails</h2>
+  <p>Browse the most recently added trails:</p>
+
+  <ul>
+    {% for page in trails.pages %}
+    <li>
+      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 
 {% endblock content %}
