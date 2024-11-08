@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+<!-- Head -->
+{% block head %}
+<script src="/assets/scripts/search.js"></script>
+<script src="/elasticlunr.min.js"></script>
+<script src="/search_index.en.js"></script>
+
+<link rel="stylesheet" href="/assets/styles/search.css" />
+{% endblock head %}
+
+<!-- Content -->
+{% block content %}
+
+<div>
+  <h1 property="name">{{ page.title }}</h1>
+</div>
+
+<div class="search-container">
+  <input id="search" type="search" placeholder="🔎 Search trails" />
+
+  <div class="search-results">
+    <div class="search-results__items"></div>
+  </div>
+</div>
+
+<article>{{page.content | safe }} {% endblock content %}</article>
