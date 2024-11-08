@@ -11,7 +11,7 @@ extra:
     url: https://hub-clarkcountywa.opendata.arcgis.com/datasets/ClarkCountyWa::trail/about
 ---
 
-Tarbell Trail is a 22 mile loop in Clark County within Yacolt Burn State Forest. Today it is a common trail for hikers, backpackers, and bikers in the area.
+Tarbell Trail is a common loop for hikers, backpackers, and bikers in Clark County, Washington.
 
 ## History
 
