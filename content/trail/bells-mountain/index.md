@@ -1,5 +1,5 @@
 ---
-title: Bells Mountain Trail
+title: Bell's Mountain Trail
 
 date: 2024-11-06
 updated: 2024-11-07
