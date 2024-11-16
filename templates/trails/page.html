@@ -4,6 +4,15 @@
 {% block head %}
 <meta name="description" content="{{page.description}}" />
 
+<!-- OpenGraph -->
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:url" content="{{ page.permalink }}" />
+{% if page.extra.featured_image.src %}
+<meta property="og:image" content="{{ page.extra.featured_image.src }}" />
+{% endif %}
+
+<link rel="stylesheet" href="/assets/styles/trail.css" />
+
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -44,6 +53,11 @@
     <b>Aliases: </b>
     {{ page.extra.aliases | join(sep=", ")}}
   </p>
+  {% endif %}
+
+  <!-- Display Image -->
+  {% if page.extra.featured_image.src %}
+  <img class="featured_image" src="{{ page.extra.featured_image.src }}" />
   {% endif %}
 </div>
 <hr />

@@ -5,6 +5,9 @@ date: 2024-11-06
 updated: 2024-11-07
 
 extra:
+  featured_image:
+    src: "/assets/images/trail/bells-mountain/1.jpeg"
+
   distance:
     amount: 7.25588208
     unit: "miles"
