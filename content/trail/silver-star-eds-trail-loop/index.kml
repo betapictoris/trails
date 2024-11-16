@@ -1,0 +1,466 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>default</name>
+    <visibility>1</visibility>
+    <Folder>
+      <name>default</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>1.45494557</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>475</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Eds </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Side</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Native Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.242246,45.767524 -122.242293,45.767368 -122.242400,45.767228 -122.242505,45.767162 -122.242568,45.767143 -122.242634,45.767139 -122.242791,45.766985 -122.242908,45.766932 -122.242977,45.766879 -122.243008,45.766705 -122.243068,45.766555 -122.243193,45.766363 -122.243193,45.766250 -122.243230,45.766156 -122.243198,45.766054 -122.243049,45.765748 -122.243019,45.765687 -122.242567,45.765091 -122.242089,45.764673 -122.241806,45.764493 -122.241576,45.764399 -122.241567,45.764392 -122.241239,45.764146 -122.241160,45.764066 -122.241098,45.763932 -122.241128,45.763803 -122.241130,45.763794 -122.241193,45.763709 -122.241315,45.763632 -122.241465,45.763586 -122.241827,45.763541 -122.242039,45.763488 -122.242101,45.763445 -122.242152,45.763395 -122.242465,45.763184 -122.243027,45.762847 -122.243453,45.762444 -122.243691,45.762270 -122.243853,45.762086 -122.243917,45.762026 -122.244054,45.761882 -122.244183,45.761643 -122.244481,45.761269 -122.244748,45.760791 -122.244767,45.760731 -122.244765,45.760606 -122.244700,45.760413 -122.244730,45.760300 -122.244813,45.760178 -122.244845,45.760090 -122.244796,45.760004 -122.244681,45.759905 -122.244628,45.759804 -122.244473,45.759693 -122.244424,45.759591 -122.244413,45.759572 -122.244169,45.759151 -122.244147,45.759029 -122.244038,45.758967 -122.243961,45.758911 -122.243851,45.758830 -122.243803,45.758749 -122.243793,45.758679 -122.243813,45.758592 -122.243920,45.758465 -122.243838,45.758314 -122.243784,45.758201 -122.243732,45.757879 -122.243583,45.757536 -122.243314,45.757275 -122.243169,45.757133 -122.242984,45.757086 -122.242943,45.757036 -122.242804,45.756955 -122.242646,45.756879 -122.242412,45.756716 -122.242311,45.756623 -122.242232,45.756485 -122.242209,45.756353 -122.242120,45.756174 -122.242093,45.755976 -122.241574,45.755388 -122.241559,45.755309 -122.241480,45.755153 -122.241441,45.755056 -122.241266,45.754990 -122.241248,45.754938 -122.241103,45.754849 -122.240999,45.754828 -122.240906,45.754730 -122.240737,45.754638 -122.240635,45.754559 -122.240567,45.754472 -122.240341,45.754055 -122.240280,45.753986 -122.240137,45.753827 -122.240138,45.753782 -122.240185,45.753745 -122.240176,45.753707 -122.240100,45.753679 -122.239919,45.753594 -122.239722,45.753547 -122.239597,45.753518 -122.239504,45.753477 -122.239388,45.753363 -122.239301,45.753218 -122.239120,45.753135 -122.239058,45.753047 -122.239080,45.752982 -122.239142,45.752925 -122.239230,45.752879 -122.239287,45.752850 -122.240000,45.752688 -122.240114,45.752650 -122.240287,45.752559 -122.240376,45.752506 -122.240445,45.752353 -122.240559,45.752251 -122.240602,45.752148 -122.240680,45.752045 -122.240846,45.751940 -122.240851,45.751886 -122.240926,45.751810 -122.241075,45.751701 -122.241481,45.751499 -122.241703,45.751315 -122.241838,45.751096 -122.241960,45.750804 -122.242022,45.750595 -122.242047,45.750324 -122.242171,45.749931</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>0.21532523</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>739</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Bluff Mountain </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Main</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Native Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.239749,45.748555 -122.240082,45.748593 -122.240533,45.748688 -122.240953,45.748870 -122.241232,45.749040 -122.241375,45.749148 -122.241480,45.749231 -122.241714,45.749366 -122.241933,45.749590 -122.242042,45.749816 -122.242171,45.749931</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>0.05116803</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>738</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Bluff Mountain </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Side</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Native Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.240898,45.748332 -122.240859,45.748404 -122.240697,45.748469 -122.240292,45.748454 -122.239937,45.748489 -122.239749,45.748555</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>0.05705925</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>736</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Silver Star </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Main</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Imported Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.242064,45.748350 -122.241815,45.748303 -122.241367,45.748291 -122.241131,45.748299 -122.240898,45.748332</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>0.24400514</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>737</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Silver Star </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Main</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Imported Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.240898,45.748332 -122.240739,45.748277 -122.240634,45.748160 -122.240498,45.747966 -122.240328,45.747745 -122.240181,45.747605 -122.240055,45.747478 -122.239881,45.747376 -122.239735,45.747278 -122.239617,45.747185 -122.239518,45.747063 -122.239459,45.746916 -122.239339,45.746799 -122.239301,45.746671 -122.239237,45.746562 -122.239141,45.746535 -122.239100,45.746555 -122.239088,45.746598 -122.239126,45.746707 -122.239156,45.746811 -122.239134,45.746959 -122.239056,45.747089 -122.238986,45.747247 -122.239017,45.747361 -122.239096,45.747483 -122.239113,45.747602 -122.239102,45.747683 -122.239036,45.747760</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>0.08580098</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>474</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Silver Star </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Main</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Imported Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.242171,45.749931 -122.242163,45.749551 -122.242119,45.749358 -122.242096,45.749160 -122.242097,45.749025 -122.242135,45.748827 -122.242197,45.748702 -122.242213,45.748639 -122.242214,45.748549 -122.242120,45.748395 -122.242064,45.748350</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>0.87642556</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>473</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Silver Star </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Main</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Imported Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.245259,45.762232 -122.245260,45.762232 -122.245426,45.762215 -122.245590,45.762198 -122.245738,45.762199 -122.245872,45.762182 -122.245904,45.762155 -122.246035,45.762030 -122.246138,45.761860 -122.246184,45.761743 -122.246177,45.761572 -122.246145,45.761266 -122.246067,45.761058 -122.245956,45.760860 -122.245784,45.760579 -122.245579,45.760290 -122.245415,45.759992 -122.245202,45.759675 -122.245038,45.759395 -122.244896,45.759160 -122.244802,45.758962 -122.244730,45.758781 -122.244676,45.758583 -122.244629,45.758475 -122.244472,45.758194 -122.244244,45.757788 -122.244110,45.757481 -122.244040,45.757355 -122.243930,45.757228 -122.243813,45.757146 -122.243711,45.756984 -122.243624,45.756740 -122.243514,45.756532 -122.243302,45.756171 -122.243075,45.755863 -122.242862,45.755655 -122.242699,45.755492 -122.242517,45.755364 -122.242392,45.755210 -122.242337,45.755111 -122.242298,45.754985 -122.242219,45.754804 -122.242078,45.754623 -122.241968,45.754497 -122.241873,45.754388 -122.241771,45.754189 -122.241725,45.753964 -122.241732,45.753730 -122.241699,45.753532 -122.241755,45.753289 -122.241834,45.753038 -122.241872,45.752795 -122.241911,45.752606 -122.241935,45.752336 -122.241895,45.752156 -122.241863,45.751931 -122.241926,45.751760 -122.242044,45.751536 -122.242153,45.751321 -122.242255,45.751123 -122.242263,45.750991 -122.242283,45.750839 -122.242277,45.750354 -122.242171,45.749931</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>default</name>
+        <visibility>1</visibility>
+        <ExtendedData>
+          <Data name="ATV">
+            <value>No</value>
+          </Data>
+          <Data name="Hike">
+            <value>Yes</value>
+          </Data>
+          <Data name="Length">
+            <value>1.42378171</value>
+          </Data>
+          <Data name="Status">
+            <value>Open</value>
+          </Data>
+          <Data name="MtnBike">
+            <value>Yes</value>
+          </Data>
+          <Data name="OBJECTID">
+            <value>466</value>
+          </Data>
+          <Data name="RoadBike">
+            <value>No</value>
+          </Data>
+          <Data name="Motorized">
+            <value>Prohibited</value>
+          </Data>
+          <Data name="PublishDt">
+            <value>Fri, 19 Jul 2024 23:39:21 GMT</value>
+          </Data>
+          <Data name="TrailName">
+            <value>Silver Star </value>
+          </Data>
+          <Data name="Equestrian">
+            <value>Yes</value>
+          </Data>
+          <Data name="Motorcycle">
+            <value>No</value>
+          </Data>
+          <Data name="TrailClass">
+            <value>Main</value>
+          </Data>
+          <Data name="TrlSurface">
+            <value>Native Material</value>
+          </Data>
+          <Data name="LengthUnits">
+            <value>Miles</value>
+          </Data>
+          <Data name="doc_name">
+            <value>default</value>
+          </Data>
+        </ExtendedData>
+        <LineString>
+          <coordinates>-122.243233,45.776352 -122.243213,45.776179 -122.243009,45.775934 -122.242759,45.775671 -122.242421,45.775435 -122.242145,45.775307 -122.241870,45.775216 -122.241698,45.775034 -122.241494,45.774826 -122.241189,45.774671 -122.240852,45.774561 -122.240537,45.774460 -122.240264,45.774332 -122.240090,45.774223 -122.240004,45.774123 -122.239895,45.773942 -122.239855,45.773735 -122.239910,45.773492 -122.240050,45.773295 -122.240183,45.773125 -122.240309,45.772982 -122.240427,45.772839 -122.240560,45.772759 -122.240763,45.772724 -122.240990,45.772762 -122.241234,45.772817 -122.241460,45.772846 -122.241837,45.772821 -122.242277,45.772761 -122.242535,45.772736 -122.243186,45.772713 -122.243237,45.772696 -122.243508,45.772607 -122.243664,45.772509 -122.243845,45.772366 -122.243968,45.772241 -122.244087,45.772107 -122.244250,45.771955 -122.244338,45.771839 -122.244392,45.771731 -122.244369,45.771659 -122.244330,45.771587 -122.244164,45.771603 -122.244000,45.771674 -122.243913,45.771719 -122.243748,45.771736 -122.243506,45.771734 -122.243247,45.771714 -122.243067,45.771659 -122.242919,45.771550 -122.242840,45.771325 -122.242823,45.771127 -122.242824,45.770947 -122.242846,45.770722 -122.242910,45.770551 -122.243066,45.770309 -122.243175,45.770130 -122.243269,45.769941 -122.243238,45.769671 -122.243214,45.769320 -122.243167,45.768987 -122.243119,45.768761 -122.242993,45.768508 -122.242861,45.768354 -122.242719,45.768219 -122.242562,45.768083 -122.242429,45.767938 -122.242374,45.767856 -122.242297,45.767802 -122.242264,45.767746 -122.242200,45.767646 -122.242217,45.767580 -122.242246,45.767524 -122.242300,45.767522 -122.242397,45.767572 -122.242501,45.767648 -122.242607,45.767705 -122.242742,45.767760 -122.242937,45.767797 -122.243086,45.767825 -122.243173,45.767790 -122.243236,45.767709 -122.243180,45.767555 -122.243110,45.767429 -122.243047,45.767276 -122.243024,45.767149 -122.243054,45.766997 -122.243180,45.766853 -122.243336,45.766693 -122.243485,45.766523 -122.243633,45.766379 -122.243791,45.766155 -122.243909,45.765967 -122.243941,45.765921 -122.244057,45.765743 -122.244158,45.765546 -122.244205,45.765348 -122.244220,45.765150 -122.244166,45.764889 -122.244094,45.764618 -122.243992,45.764357 -122.243944,45.764158 -122.243906,45.763960 -122.243882,45.763753 -122.243921,45.763537 -122.243975,45.763303 -122.244085,45.763061 -122.244226,45.762864 -122.244367,45.762730 -122.244626,45.762507 -122.244829,45.762364 -122.245064,45.762294 -122.245259,45.762232</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
