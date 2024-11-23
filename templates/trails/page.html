@@ -29,38 +29,20 @@
 <!-- Content -->
 {% block content %}
 
-<div>
+<div class="detail">
   <h1 property="name">
     {{ page.title }} {% if page.extra.category %} ({{page.extra.category}}) {%
     endif %}
   </h1>
-
-  <div>
-    <p>
-      {% if page.extra.distance %}
-      <b>Distance:</b> {{page.extra.distance.amount | round(precision=1)}} {{
-      page.extra.distance.unit }} {% endif %}
-
-      <!-- Accent -->
-      {% if page.extra.accent %}
-      <b>Accent:</b> {{page.extra.accent.amount | round(precision=0)}} {{
-      page.extra.accent.unit }} {% endif %}
-    </p>
-  </div>
-
-  {% if page.extra.aliases %}
-  <p>
-    <b>Aliases: </b>
-    {{ page.extra.aliases | join(sep=", ")}}
-  </p>
-  {% endif %}
 
   <!-- Display Image -->
   {% if page.extra.featured_image.src %}
   <img class="featured_image" src="{{ page.extra.featured_image.src }}" />
   {% endif %}
 </div>
-<hr />
+
+
+<section class="primary">
 
 <div class="content">
   <section class="route">
@@ -116,3 +98,4 @@
 
   <article>{{page.content | safe }} {% endblock content %}</article>
 </div>
+</section>
