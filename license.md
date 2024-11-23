@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-# Pictogrammers Icons: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+# Pictogrammers Icons: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 Some of the icons are redistributed under the Apache 2.0 license. All other
 icons are either redistributed under their respective licenses or are
