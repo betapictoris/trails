@@ -1,4 +1,5 @@
 @import "_typography";
+@import "_header";
 
 :root {
   --bg: #fff;
@@ -29,48 +30,6 @@ body {
 }
 
 // Content
-header {
-  display: flex;
-  padding: 8px;
-
-  position: sticky;
-  top: 0;
-  z-index: 99999;
-
-  justify-content: space-between;
-
-  background-color: var(--s0);
-  border-bottom: 2px solid var(--s1);
-
-  > nav {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-
-    > a {
-      height: fit-content;
-      margin: auto;
-
-      color: var(--fg0);
-    }
-  }
-
-  > a {
-    display: flex;
-    justify-content: center;
-
-    color: var(--fg0);
-    font-weight: bold;
-    text-decoration: none;
-
-    gap: 8px;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
 main {
   max-width: 820px;
 
