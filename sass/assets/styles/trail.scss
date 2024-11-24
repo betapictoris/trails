@@ -1,4 +1,4 @@
-.detail {
+.detail:has(.featured_image) {
   top: 0;
   position: absolute;
   width: 100%;
@@ -7,7 +7,6 @@
   overflow-x: hidden;
 
   > div.detail__name {
-    background-image: linear-gradient(rgba(255, 255, 255, 000), rgba(255, 255, 255, 000), #fff);
     top: 0;
     position: absolute;
 
@@ -21,7 +20,7 @@
 
     > h1 {
       font-size: 2em;
-      color: #000;
+      color: #fff;
 
       width: 100%;
       max-width: calc(820px + 64px);
