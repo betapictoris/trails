@@ -69,6 +69,11 @@ footer {
   footer {
     display: none;
   }
+
+  // Compensate for lost space for the navbar
+  main {
+    margin-bottom: 84px;
+  }
 }
 
 // @media only screen and (max-width: 512px) {
