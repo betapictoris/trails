@@ -8,6 +8,11 @@ ul.cardListing {
     padding: 0;
 }
 
+li.cardListing__item {
+    display: flex;
+    justify-content: center;
+}
+
 .card {
     display: flex;
     flex-direction: column;

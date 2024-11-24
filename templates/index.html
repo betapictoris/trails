@@ -22,7 +22,7 @@
 
   <ul class="cardListing">
     {% for page in trails.pages %}
-    <li>
+    <li class="cardListing__item">
       <a href="{{ page.permalink | safe }}" class="card">
         {% if page.extra.featured_image.src %}
         <img class="card__image" src="{{ page.extra.featured_image.src }}" />
