@@ -7,7 +7,6 @@ header {
   max-width: 640px;
 
   position: sticky;
-  top: 12px;
   z-index: 99999;
 
   justify-content: space-between;
@@ -72,3 +71,43 @@ header {
   }
 }
   
+@media only screen and (min-width: 640px) {
+  header {
+    top: 12px;
+  }
+}
+
+
+@media only screen and (max-width: 640px) {
+  header {
+    position: fixed;
+    width: calc(100% - 32px);
+    max-width: unset;
+    
+    margin: 12px;
+
+    bottom: 0px;
+
+    justify-content: space-around;
+
+    nav {
+      width: 100%;
+      justify-content: space-around;
+
+      a {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+
+        svg {
+          margin: 0 auto !important;
+        }
+      }
+    }
+
+    a {
+      display: none;
+    }
+  }
+}
