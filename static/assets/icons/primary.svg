@@ -1,11 +1,11 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M128 64C128 28.6538 99.3462 0 64 0C28.6538 0 0 28.6538 0 64C0 99.3462 28.6538 128 64 128C99.3462 128 128 99.3462 128 64Z" fill="url(#paint0_radial_54_237)"/>
-<path d="M64 90V32L32 96L64 90Z" fill="#E3E3E7"/>
-<path d="M64 90V32L96 96L64 90Z" fill="#F8F8F9"/>
+<path d="M64 90V32L32 96L64 90Z" fill="#EAECEA"/>
+<path d="M64 90V32L96 96L64 90Z" fill="#F4F5F4"/>
 <defs>
 <radialGradient id="paint0_radial_54_237" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(64 128) rotate(-90) scale(128)">
-<stop offset="0.151075" stop-color="#00864A"/>
-<stop offset="1" stop-color="#52AB78"/>
+<stop offset="0.151075" stop-color="#268035"/>
+<stop offset="1" stop-color="#4FAA5E"/>
 </radialGradient>
 </defs>
 </svg>
