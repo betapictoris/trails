@@ -1,0 +1,50 @@
+// Generics
+section.primary {
+  max-width: 820px;
+  padding: 8px;
+}
+
+.detail:has(.featured_image) + .primary {
+  margin: 300px auto 0;
+}
+
+// For trails without a featured image we'll go back to the "classic" layout.
+.detail:not(:has(.featured_image)) {
+  width: 100%;
+  max-width: 820px;
+  margin: 32px auto 0;
+  padding: 8px;
+
+  .detail__name h1 {
+    line-height: 1;
+    margin: 0;
+  }
+}
+
+
+.detail:not(:has(.featured_image)) + section.primary {
+  margin: 0 auto;
+}
+
+// Primary content
+@media only screen and (max-width: 640px) {
+  .content {
+    flex-direction: column !important;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+
+  gap: 16px;
+
+  > article {
+    width: 100%;
+    max-width: 640px;
+  }
+
+  > .route {
+    width: 100%;
+  }
+}

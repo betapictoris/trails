@@ -1,0 +1,48 @@
+// For trails with a featured image
+.detail:has(.featured_image) {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 320px;
+  
+    overflow-x: hidden;
+
+    div.cta > h1 {
+        margin: auto !important;
+        max-width: 740px !important;
+    }
+  
+    > div.detail__name {
+      top: 0;
+      position: absolute;
+  
+      width: 100%;
+      height: calc(320px - 24px);
+  
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      padding: 8px 8px 16px;
+  
+      > h1 {
+        font-size: 2em;
+        color: #fff;
+  
+        width: 100%;
+        max-width: calc(820px + 16px);
+        margin: 0 auto;
+      }
+    }
+    
+    > .featured_image {
+      top: 0;
+      position: absolute;
+  
+      object-fit: cover;
+      filter: brightness(0.8);
+      z-index: -1;
+  
+      width: 100%;
+      height: 320px;
+    }
+  }

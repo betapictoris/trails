@@ -1,6 +1,8 @@
 @import "_typography";
 @import "_header";
 @import "_footer";
+@import "_hero";
+@import "_page";
 
 :root {
   --bg: #fff;
@@ -33,61 +35,5 @@ body {
 // Content
 main {
   min-height: 98vh;
-}
-
-
-// Content
-@media only screen and (max-width: 640px) {
-  .content {
-    flex-direction: column !important;
-  }
-}
-
-.content {
-  display: flex;
-  flex-direction: row-reverse;
-
-  gap: 16px;
-
-  > article {
-    width: 100%;
-    max-width: 640px;
-  }
-
-  > .route {
-    width: 100%;
-  }
-}
-
-.downloads {
-  display: flex;
-  flex-direction: column;
-
-  > nav {
-    display: flex;
-    flex-direction: column;
-
-    padding: 8px 0;
-
-    > a {
-      text-decoration: none;
-      line-height: 1.4;
-
-      &:hover {
-        text-decoration: underline;
-      }
-
-      &::before {
-        color: var(--fg0);
-        content: "";
-        display: block;
-        background: url('/assets/glyphs/download.svg') no-repeat;
-        width: 1.2em;
-        height: 1.2em;
-        float: left;
-        margin-right: 4px;
-      }
-    }
-  }
 }
 

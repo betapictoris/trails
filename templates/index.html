@@ -3,7 +3,18 @@
 <!-- Content -->
 {% block content %}
 
-<section>
+<div class="detail">
+  <div class="detail__name cta">
+    <h1>
+      Haihaus Trails is the open-source trails app for hiking, biking, running, and anything in between.  
+    </h1>
+  </div>
+
+  <!-- Display Image -->
+  <img class="featured_image" src="/assets/images/fungi/1.jpeg" />
+</div>
+
+<section class="primary">
   {% set trails = get_section(path="trail/_index.md") %}
 
   <h2>Recent Trails</h2>

@@ -13,15 +13,22 @@
 {% block content %}
 
 <div>
-  <h1 property="name">{{ page.title }}</h1>
 </div>
 
-<div class="search-container">
-  <input id="search" type="search" placeholder="🔎 Search trails" />
-
-  <div class="search-results">
-    <div class="search-results__items"></div>
+<div class="detail">
+  <div class="detail__name">
+    <h1 property="name">{{ page.title }}</h1>
   </div>
 </div>
+
+<section class="primary">
+  <div class="search-container">
+    <input id="search" type="search" placeholder="🔎 Search trails" />
+
+    <div class="search-results">
+      <div class="search-results__items"></div>
+    </div>
+  </div>
+</section>
 
 <article>{{page.content | safe }} {% endblock content %}</article>
