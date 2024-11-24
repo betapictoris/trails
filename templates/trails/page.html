@@ -30,10 +30,12 @@
 {% block content %}
 
 <div class="detail">
-  <h1 property="name">
-    {{ page.title }} {% if page.extra.category %} ({{page.extra.category}}) {%
-    endif %}
-  </h1>
+  <div class="detail__name">
+    <h1 property="name">
+      {{ page.title }} {% if page.extra.category %} ({{page.extra.category}}) {%
+      endif %}
+    </h1>
+  </div>
 
   <!-- Display Image -->
   {% if page.extra.featured_image.src %}
