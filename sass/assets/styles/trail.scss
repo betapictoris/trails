@@ -20,19 +20,19 @@ section.primary {
     position: absolute;
 
     width: 100%;
-    height: calc(320px - (32px * 2));
+    height: calc(320px - 24px);
 
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    padding: 32px;
+    padding: 8px 8px 16px;
 
     > h1 {
       font-size: 2em;
       color: #fff;
 
       width: 100%;
-      max-width: calc(820px + 64px);
+      max-width: calc(820px + 16px);
       margin: 0 auto;
     }
   }
