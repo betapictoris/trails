@@ -1,0 +1,46 @@
+ul.cardListing {
+    display: grid;
+    list-style-type: none;
+
+    gap: 10px;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    max-width: 320px;
+
+    color: var(--fg0);
+    text-decoration: none;
+
+    font-weight: bold;
+    justify-content: space-between;
+
+    .card__image {
+        border-radius: 8px;
+        width: 100%;
+        margin:0;
+        text-decoration: none !important;
+        height: 180px;
+    }
+
+    p.card__image {
+        font-weight: normal;
+        text-align: center;
+        line-height: 180px;
+
+        justify-content: center;
+
+        background-color: var(--s0);
+    }
+
+    &:hover .card__name {
+        text-decoration: underline;
+    }
+}

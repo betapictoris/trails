@@ -20,10 +20,20 @@
   <h2>Recent Trails</h2>
   <p>Browse the most recently added trails:</p>
 
-  <ul>
+  <ul class="cardListing">
     {% for page in trails.pages %}
     <li>
-      <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      <a href="{{ page.permalink | safe }}" class="card">
+        {% if page.extra.featured_image.src %}
+        <img class="card__image" src="{{ page.extra.featured_image.src }}" />
+        {% else %}
+          <p class="card__image">No Image</p>
+        {% endif %}
+
+        <div class="card__name">
+          {{ page.title }}
+        </div>
+      </a>
     </li>
     {% endfor %}
   </ul>
