@@ -8,8 +8,14 @@
     overflow-x: hidden;
 
     div.cta > h1 {
-        margin: auto !important;
-        max-width: 740px !important;
+      margin: auto !important;
+      max-width: 740px !important;
+      padding: 12px;
+      width: fit-content;
+    }
+
+    div.detail__name:not(.cta) {
+      padding: 8px 8px 16px;
     }
   
     > div.detail__name {
@@ -22,7 +28,6 @@
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
-      padding: 8px 8px 16px;
   
       > h1 {
         font-size: 2em;
