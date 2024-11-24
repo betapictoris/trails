@@ -1,6 +1,6 @@
 header {
   display: flex;
-  padding: 2px 4px;
+  padding: 2px;
 
   margin: 12px auto;
   
@@ -80,25 +80,25 @@ header {
 
 @media only screen and (max-width: 640px) {
   header {
-    position: fixed;
-    width: calc(100% - 32px);
-    max-width: unset;
+    position: fixed !important;
+    width: calc(100% - 32px) !important;
+    max-width: unset !important;
     
-    margin: 12px;
+    margin: 12px !important;
 
-    bottom: 0px;
+    bottom: 0px !important;
 
-    justify-content: space-around;
+    justify-content: space-around !important;
 
     nav {
-      width: 100%;
-      justify-content: space-around;
+      width: 100% !important;
+      justify-content: space-around !important;
 
       a {
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
+        justify-content: center !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        text-align: center !important;
 
         svg {
           margin: 0 auto !important;
@@ -107,7 +107,7 @@ header {
     }
 
     a {
-      display: none;
+      display: none !important;
     }
   }
 }
