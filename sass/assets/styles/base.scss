@@ -71,6 +71,7 @@ main {
 
     > a {
       text-decoration: none;
+      line-height: 1.4;
 
       &:hover {
         text-decoration: underline;
@@ -78,8 +79,13 @@ main {
 
       &::before {
         color: var(--fg0);
-        content: "🠇";
-        margin-right: 8px;
+        content: "";
+        display: block;
+        background: url('/assets/glyphs/download.svg') no-repeat;
+        width: 1.2em;
+        height: 1.2em;
+        float: left;
+        margin-right: 4px;
       }
     }
   }
