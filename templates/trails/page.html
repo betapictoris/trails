@@ -43,61 +43,61 @@
   {% endif %}
 </div>
 
-
 <section class="primary">
+  <div class="content">
+    <section class="route">
+      <div>
+        <h2>Map</h2>
+        <div class="interactiveMap">
+          <noscript>The interactive map requires JavaScript.</noscript>
 
-<div class="content">
-  <section class="route">
-    <div>
-      <h2>Map</h2>
-      <div class="interactiveMap">
-        <noscript>The interactive map requires JavaScript.</noscript>
+          <div class="map" id="map"></div>
 
-        <div class="map" id="map"></div>
+          <script>
+            var map = L.map("map", { attributionControl: false });
 
-        <script>
-          var map = L.map("map", { attributionControl: false });
+            L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+              maxZoom: 19,
+              attribution:
+                '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a>',
+            }).addTo(map);
 
-          L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-            maxZoom: 19,
-            attribution:
-              '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a>',
-          }).addTo(map);
-
-          fetch("index.geojson")
-            .then((response) => response.json())
-            .then((data) => {
-              var geojson = L.geoJSON(data).addTo(map);
-              map.fitBounds(geojson.getBounds());
-            });
-        </script>
+            fetch("index.geojson")
+              .then((response) => response.json())
+              .then((data) => {
+                var geojson = L.geoJSON(data).addTo(map);
+                map.fitBounds(geojson.getBounds());
+              });
+          </script>
+        </div>
       </div>
-    </div>
 
-    <div class="downloads">
-      <h2>Downloads</h2>
+      Map style and data provided by
+      <a
+        href="https://www.openstreetmap.org/copyright"
+        target="_blank"
+        rel="noreferrer"
+        >OpenStreetMap</a
+      >
+      contributors.
 
-      <nav>
-        <a href="index.geojson" download>Download .geojson</a>
-        <a href="index.gpx" download>Download .gpx</a>
-        <a href="index.kml" download>Download .kml</a>
-      </nav>
-    </div>
+      <div class="downloads">
+        <h2>Downloads</h2>
 
-    Route data provided by
-    <a href="{{ page.extra.source.url }}" target="_blank" rel="noreferrer"
-      >{{ page.extra.source.name }}</a
-    >. Map style and data provided by
-    <a
-      href="https://www.openstreetmap.org/copyright"
-      target="_blank"
-      rel="noreferrer"
-      >OpenStreetMap</a
-    >
-    contributors.
-    <hr />
-  </section>
+        <nav>
+          <a href="index.geojson" download>Download .geojson</a>
+          <a href="index.gpx" download>Download .gpx</a>
+          <a href="index.kml" download>Download .kml</a>
+        </nav>
+      </div>
 
-  <article>{{page.content | safe }} {% endblock content %}</article>
-</div>
+      Route data provided by {% for source in page.extra.sources %}{% if not
+      loop.first %}{% if loop.last %}{% if loop.index0 != 1 %},{% endif%} and {%
+      else %}, {% endif %}{% endif %}
+      <a href="{{ source.url | safe }}">{{ source.name }}</a>{% endfor %}.
+      <hr />
+    </section>
+
+    <article>{{page.content | safe }} {% endblock content %}</article>
+  </div>
 </section>
